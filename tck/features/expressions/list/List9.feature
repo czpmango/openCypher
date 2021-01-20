@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: List tail
 Feature: List9 - List Tail
 
   Scenario: [1] Returning nested expressions based on list property

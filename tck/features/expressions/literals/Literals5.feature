@@ -73,7 +73,7 @@ Feature: Literals5 - Float
       | literal      |
       | 0.3405892687 |
     And no side effects
-
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/656
   Scenario: [5] Return a very long positive float
     Given any graph
     When executing query:

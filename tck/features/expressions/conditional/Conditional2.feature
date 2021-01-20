@@ -28,5 +28,6 @@
 
 #encoding: utf-8
 
+// issue: case
 Feature: Conditional2 - Case Expression
 

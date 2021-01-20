@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/650
 Feature: List12 - List Comprehension
 
   Scenario: [1] Collect and extract using a list comprehension

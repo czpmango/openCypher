@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: return integer (check last item)
 Feature: Literals2 - Decimal integer
 
   Scenario: [1] Return a short positive integer
@@ -145,6 +146,7 @@ Feature: Literals2 - Decimal integer
       """
     Then a SyntaxError should be raised at compile time: InvalidNumberLiteral
 
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/654
   @NegativeTest
   Scenario: [12] Fail on an integer containing a invalid symbol character
     Given any graph

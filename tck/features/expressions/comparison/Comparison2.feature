@@ -30,6 +30,7 @@
 
 Feature: Comparison2 - Half-bounded Range
 
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/639
   Scenario: [1] Comparing strings and integers using > in an AND'd predicate
     Given an empty graph
     And having executed:
@@ -69,6 +70,7 @@ Feature: Comparison2 - Half-bounded Range
       | null  |
     And no side effects
 
+// issue: can not run
   Scenario Outline: [3] Comparing across types yields null, except numbers
     Given an empty graph
     And having executed:
@@ -99,6 +101,7 @@ Feature: Comparison2 - Half-bounded Range
       | >=       | 3.14 | 1    |
       | >        | 3.14 | 1    |
 
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/642
   Scenario Outline: [4] Comparing lists
     Given an empty graph
     When executing query:
@@ -118,6 +121,7 @@ Feature: Comparison2 - Half-bounded Range
       | [1, 'a']  | [1, null] | null   |
       | [1, 2]    | [3, null] | false  |
 
+// bug:https://github.com/vesoft-inc/nebula-graph/issues/643
   Scenario Outline: [5] Comparing NaN
     Given an empty graph
     When executing query:
@@ -136,6 +140,7 @@ Feature: Comparison2 - Half-bounded Range
       | 0.0 / 0.0 | 0.0 / 0.0 | false  |
       | 0.0 / 0.0 | 'a'       | null   |
 
+// bug:https://github.com/vesoft-inc/nebula-graph/issues/644
   Scenario Outline: [6] Comparability between numbers and strings
     Given any graph
     When executing query:

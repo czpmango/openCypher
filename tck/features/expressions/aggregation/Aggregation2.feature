@@ -114,6 +114,7 @@ Feature: Aggregation2 - Min and Max
       | 'b'    |
     And no side effects
 
+// unsupported: agg over non-numeric type
   Scenario: [8] `min()` over strings
     Given any graph
     When executing query:

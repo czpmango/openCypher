@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: not ok
 Feature: Boolean4 - NOT logical operations
 
   Scenario: [1] NOT and false

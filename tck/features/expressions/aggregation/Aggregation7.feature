@@ -27,7 +27,7 @@
 #
 
 #encoding: utf-8
-
+// issue: ??
 Feature: Aggregation7 - Standard deviation
 
   

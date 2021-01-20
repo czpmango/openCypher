@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: agg distinct ok
 Feature: Aggregation8 - DISTINCT
 
   Scenario: [1] Distinct on unbound node

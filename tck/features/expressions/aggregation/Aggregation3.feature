@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: sum ok
 Feature: Aggregation3 - Sum
 
   Scenario: [1] Sum only non-null values

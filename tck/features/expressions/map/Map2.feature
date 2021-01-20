@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: map 
 Feature: Map2 - Dynamic Value Access
 # Dynamic value access refers to the bracket-operator – <expression resulting in a map>'['<expression resulting in a string>']' – irrespectively of whether the map key – i.e. <expression resulting in a string> – could be evaluated statically in a given scenario.
 
@@ -46,6 +47,7 @@ Feature: Map2 - Dynamic Value Access
       | 'Apa' |
     And no side effects
 
+// note: with {n:"A"} AS m,'n' AS idx return m[(string)idx]
   Scenario: [2] Use dynamic property lookup based on parameters when there is rhs type information
     Given any graph
     And parameters are:

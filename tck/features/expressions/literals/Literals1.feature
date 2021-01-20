@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: return bool and null
 Feature: Literals1 - Boolean and Null
 
   Scenario: [1] Return a boolean true lower case

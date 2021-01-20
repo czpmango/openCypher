@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// bug:https://github.com/vesoft-inc/nebula-graph/issues/646
 Feature: List3 - List Equality
 
   Scenario: [1] Equality between list and literal should return false

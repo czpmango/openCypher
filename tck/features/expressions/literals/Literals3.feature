@@ -27,7 +27,7 @@
 #
 
 #encoding: utf-8
-
+// supported: Hex integer ok
 Feature: Literals3 - Hexadecimal integer
 
   Scenario: [1] Return a short positive hexadecimal integer

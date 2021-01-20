@@ -27,7 +27,7 @@
 #
 
 #encoding: utf-8
-
+// supported: numerical comparison ok
 Feature: Comparison3 - Full-Bound Range
 
   Scenario: [1] Handling numerical ranges 1

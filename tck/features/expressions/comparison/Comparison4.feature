@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: yield (1<2) != (2!=3)
 Feature: Comparison4 - Combination of Comparisons
 
   Scenario: [1] Handling long chains of operators

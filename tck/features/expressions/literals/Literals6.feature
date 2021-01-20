@@ -74,6 +74,7 @@ Feature: Literals6 - String
       | '\''    |
     And no side effects
 
+// issue: openCypher inconsistent [ISSUE]
   @skipStyleCheck
   Scenario: [5] Return a single-quoted string with escaped characters
     Given any graph
@@ -166,6 +167,7 @@ Feature: Literals6 - String
       | '🧐🍌❖⋙⚐' |
     And no side effects
 
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/657
   @NegativeTest
   Scenario: [13] Failing on incorrect unicode literal
     Given any graph

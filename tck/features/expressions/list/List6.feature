@@ -59,6 +59,7 @@ Feature: List6 - List size
     And the side effects should be:
       | +properties | 1 |
 
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/653
   Scenario: [3] Concatenating and returning the size of literal lists
     Given any graph
     When executing query:

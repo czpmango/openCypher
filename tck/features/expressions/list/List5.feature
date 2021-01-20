@@ -28,6 +28,8 @@
 
 #encoding: utf-8
 
+// unsupported: Check other
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/650
 Feature: List5 - List Membership Validation - IN Operator
 
   Scenario: [1] IN should work with nested list subscripting
@@ -42,6 +44,7 @@ Feature: List5 - List Membership Validation - IN Operator
       | true |
     And no side effects
 
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/651
   Scenario: [2] IN should work with nested literal list subscripting
     Given any graph
     When executing query:
@@ -265,6 +268,7 @@ Feature: List5 - List Membership Validation - IN Operator
       | null |
     And no side effects
 
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/652
   Scenario: [22] IN should return null when LHS and RHS both ultimately contain null, even if LHS and RHS are of different types (nested list and flat list)
     Given any graph
     When executing query:

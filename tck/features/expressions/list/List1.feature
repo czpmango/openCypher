@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: List indexing ok
 Feature: List1 - Dynamic Element Access
 # Dynamic element access refers to the bracket-operator – <expression resulting in a list>[<expression resulting in an integer>] – irrespectively of whether the list index – i.e. <expression resulting in an integer> – could be evaluated statically in a given scenario.
 
@@ -82,6 +83,7 @@ Feature: List1 - Dynamic Element Access
       | 'Apa' |
     And no side effects
 
+// Note:yield [[1]][0][(INT)0]
   Scenario: [5] Use list lookup based on parameters when there is rhs type information
     Given any graph
     And parameters are:

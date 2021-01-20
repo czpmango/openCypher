@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: Octal int ok
 Feature: Literals4 - Octal integer
 
   Scenario: [1] Return a short positive octal integer

@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: coalesce function
 Feature: Conditional1 - Coalesce Expression
 
   Scenario: Run coalesce

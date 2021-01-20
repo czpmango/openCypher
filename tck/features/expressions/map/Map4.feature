@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// unsupported: exists function
 Feature: Map4 - Field existence check
 
   Scenario Outline: [1] `exists()` with literal maps

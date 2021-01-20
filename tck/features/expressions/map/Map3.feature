@@ -27,7 +27,7 @@
 #
 
 #encoding: utf-8
-
+// unsupported: keys(null) (abs(null),type(null)...)
 Feature: Map3 - Keys function
 
   Scenario: [1] Using `keys()` on a literal map

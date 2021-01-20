@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: range function
 Feature: List11 - Create a list from a range
 
   Scenario Outline: [1] Create list from `range()` with default step

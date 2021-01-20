@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: list Concatenating
 Feature: List4 - List Concatenation
 
   Scenario: [1] Concatenating lists of same type

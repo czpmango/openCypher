@@ -27,5 +27,5 @@
 #
 
 #encoding: utf-8
-
+// issue: ??
 Feature: Boolean1 - And logical operations

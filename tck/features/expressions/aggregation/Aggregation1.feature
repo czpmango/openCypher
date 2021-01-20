@@ -27,7 +27,7 @@
 #
 
 #encoding: utf-8
-
+// supported: count ok
 Feature: Aggregation1 - Count
 
   Scenario: [1] Count only non-null values

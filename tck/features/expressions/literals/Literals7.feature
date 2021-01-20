@@ -29,7 +29,7 @@
 #encoding: utf-8
 
 Feature: Literals7 - List
-
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/653
   Scenario: [1] Return an empty list
     Given any graph
     When executing query:
@@ -223,7 +223,7 @@ Feature: Literals7 - List
     Given any graph
     When executing query:
       """
-      RETURN [ {
+      yield [ {
                   id: '0001',
                   type: 'donut',
                   name: 'Cake',

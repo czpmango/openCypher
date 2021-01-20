@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: match collect 
 Feature: Aggregation5 - Collect
 
   Scenario: [1] `collect()` filtering nulls

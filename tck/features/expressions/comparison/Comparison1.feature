@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// unsupported: collect agg functions in with clause
 Feature: Comparison1 - Equality
 
   Scenario: [1] Number-typed integer comparison

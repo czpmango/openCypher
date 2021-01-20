@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/658
 Feature: Literals8 - Maps
 
   Scenario: [1] Return an empty map

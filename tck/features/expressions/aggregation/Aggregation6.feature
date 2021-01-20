@@ -27,7 +27,7 @@
 #
 
 #encoding: utf-8
-
+// unsupported: Percentiles agg functions
 Feature: Aggregation6 - Percentiles
 
   Scenario Outline: [1] `percentileDisc()`

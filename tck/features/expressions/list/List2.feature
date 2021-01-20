@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// unsupported: List Slicing 
 Feature: List2 - List Slicing
 
   Scenario: [1] List slice
