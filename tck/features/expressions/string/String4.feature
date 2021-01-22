@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: string split
 Feature: String4 - String Splitting
 
   Scenario: [1] `split()`

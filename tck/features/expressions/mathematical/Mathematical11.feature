@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: abs
 Feature: Mathematical11 - SignedNumbersFunctions
 
   Scenario: Absolute function

@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: ArithmeticPrecedence
 Feature: Mathematical8 - ArithmeticPrecedence
 
   Scenario: Arithmetic precedence test

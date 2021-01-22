@@ -28,6 +28,8 @@
 
 #encoding: utf-8
 
+// unsupported: IS NULL
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/664
 Feature: Null3 - Null evaluation
 # the scenarios of this feature should be redistributed to the features of respective operations
 

@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: substring 
 Feature: String1 - Substring extraction
 
   Scenario: [1] `substring()` with default second argument

@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/672
 Feature: Pattern3 - Pattern Comprehension
 
   Scenario: [1] Returning a pattern comprehension

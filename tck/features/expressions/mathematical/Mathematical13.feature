@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: sqrt
 Feature: Mathematical13 - SquareRoot
 
   Scenario: `sqrt()` returning float values

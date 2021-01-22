@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: length of path
 Feature: Path3 - Length of a path
 
   Scenario: [1] Return a var length path of length zero

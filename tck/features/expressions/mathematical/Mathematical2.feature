@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: Addition
 Feature: Mathematical2 - Addition
 
   Scenario: Allow addition

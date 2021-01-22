@@ -28,6 +28,8 @@
 
 #encoding: utf-8
 
+// unsupported: IS / optional match
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/664
 Feature: Null1 - IS NULL validation
 
   Scenario: [1] Property null check on non-null node

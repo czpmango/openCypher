@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/665
 Feature: Path1 - Nodes of a path
 
   Scenario: [1] `nodes()` on null path

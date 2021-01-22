@@ -28,4 +28,5 @@
 
 #encoding: utf-8
 
+// issue: ??
 Feature: String2 - Whitespace Trimming

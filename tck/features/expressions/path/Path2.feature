@@ -63,6 +63,7 @@ Feature: Path2 - Relationships of a path
       | [[:REL {num: 1}], [:REL {num: 2}]] |
     And no side effects
 
+// bug: https://github.com/vesoft-inc/nebula-graph/issues/671
   Scenario: [3] `relationships()` on null path
     Given any graph
     When executing query:

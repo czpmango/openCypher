@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: Subtraction
 Feature: Mathematical3 - Subtraction
 
   @NegativeTest

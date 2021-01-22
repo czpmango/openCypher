@@ -28,6 +28,7 @@
 
 #encoding: utf-8
 
+// supported: string reverse 
 Feature: String3 - String Reversal
 
   Scenario: [1] `reverse()`
